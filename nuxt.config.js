@@ -38,7 +38,17 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['@nuxtjs/sitemap'],
+
+  sitemap: {
+    hostname: 'https://nuxt-sitemap.now.sh',
+    defaults: {
+      lastmod: new Date(),
+      changefreq: 'daily',
+      priority: 0.1
+    }
+  },
+
   /*
    ** Build configuration
    */
