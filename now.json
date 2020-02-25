@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "github": {
+    "enabled": false,
+    "silent": true
+  },
+  "builds": [
+    {
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/now-builder",
+      "config": {}
+    }
+  ]
+}
